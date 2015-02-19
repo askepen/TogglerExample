@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Toggler Example" package="mycompany.myapp" version="1.0.0" company="" />
+	<app path="Export" main="TogglerExample" file="TogglerExample" />
+	<source path="src" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="toggler" />
+	
+	<assets path="assets" include="*" exclude="openfl.svg" />
+	<icon path="assets/openfl.svg" />
+</project>
